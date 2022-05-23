@@ -4,7 +4,8 @@
 An analysis using R of a vehicle prototype'd production data to determine areas for improvement. Several areas were the focus of testing, and I have highlighted them below:
 
 ## Linear Regression to Predict MPG
-<insert linear regression pic>
+![Linear_Regression_Mechacar](https://github.com/Tbrecke01/MechaCar_Statistical_Analysis/blob/main/images/linear_regression_mechacar.png)
+
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? A confidence level of 95% is being used.
 - MPG, Vehicle Length, and ground clearence all had a statistically significant, non-random amount of variance
 - Vehicle Weight and Spoiler angle all had a not statistically significant levels of variation
@@ -16,13 +17,15 @@ An analysis using R of a vehicle prototype'd production data to determine areas 
 - The R squared value is 71%, which suggests that this model is a good predictor of mpg values 71% of the time. There are likely other variables not included in the dataset that contribute to the mpg variance.
 
 ## Summary Statistics on Suspension Coils
-<insert total summary pic>
-<insert lot summary pic>
+![Total_Summary](https://github.com/Tbrecke01/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
+![Lot_Summary](https://github.com/Tbrecke01/MechaCar_Statistical_Analysis/blob/main/images/Lot_summary.png)
+
 1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 - Variance for the total lots is 62, which is within expectations being below 100psi. However, when reviewing lot data individually we can see that lot 3 has a vastly oversized variance of 170, far exceeding the design variance of 100psi, which is massively inflating the total lot variance. By contrast, lot 2 and 3 only have a variance of 0.98 and 7.5 respectively.
 
 ## T-Tests on Suspension Coils
-<insert all lots ttest>
+![All_Lots_Ttest](https://github.com/Tbrecke01/MechaCar_Statistical_Analysis/blob/main/images/All_lots_ttest.png)
+
 - the p value for all lots was 0.0602 > 0.05 meaning the total lots are not statistically significant and fall within normal distribution.
 <insert lot 1 ttest>
 - The p value for Lot 1 is 1 > 0.05, meaning Lot 1 was not statistically significant.
