@@ -27,11 +27,14 @@ An analysis using R of a vehicle prototype'd production data to determine areas 
 ![All_Lots_Ttest](https://github.com/Tbrecke01/MechaCar_Statistical_Analysis/blob/main/images/All_lots_ttest.png)
 
 - the p value for all lots was 0.0602 > 0.05 meaning the total lots are not statistically significant and fall within normal distribution.
-<insert lot 1 ttest>
+![Lot_1_Ttest](https://github.com/Tbrecke01/MechaCar_Statistical_Analysis/blob/main/images/lot_1_ttest.png)
+
 - The p value for Lot 1 is 1 > 0.05, meaning Lot 1 was not statistically significant.
-<insert lot 2 ttest>
+![Lot 2 Ttest](https://github.com/Tbrecke01/MechaCar_Statistical_Analysis/blob/main/images/lot_2_ttest.png)
+
 - The p value for Lot 2 is 0.607 > 0.05 which means Lot 2 was not statistically significant.
-<insert lot 3 ttest>
+![Lot_3_Ttest](https://github.com/Tbrecke01/MechaCar_Statistical_Analysis/blob/main/images/lot_3_ttest.png)
+
 - The p value for Lot 3 was 0.042 < 0.05 which means that it is statistically significant and falls outside of normal distribution. However the mean falls within the 95% confidence interval.
 - Distribution for Lots 1 and 2 fall within expected levels and there is not enough data available to reject the null hypothesis as the two means are statistically similar.
 
